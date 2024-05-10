@@ -1,0 +1,31 @@
+.header {
+    width: 98%;
+    margin: 10px auto;
+    height: 54vh;
+    background: linear-gradient(to bottom right, #e1bee7, #d1c4e9, #c5cae9, #bbdefb);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header-content h2 {
+    font-size: 2.5rem; /* Adjust font size */
+    font-family: 'YourCreativeFont', sans-serif; /* Use a creative font */
+  }
+  
+  .header-content p {
+    font-size: 1.2rem; /* Adjusted font size */
+    font-family: 'Verdana', sans-serif; /* Use the same creative font */
+    margin-top: 40px; /* Increase the margin between h2 and p */
+  }
+  
+  

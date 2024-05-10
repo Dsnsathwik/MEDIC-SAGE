@@ -1,0 +1,37 @@
+.disease-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .disease-item {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px); /* Two items per row with a 20px gap */
+  }
+  
+  @media (max-width: 768px) {
+    .disease-item {
+      width: 100%; /* On smaller screens, display one item per row */
+    }
+  }
+  
+  .disease-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .disease-item p {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .disease-item p strong {
+    color: #007bff;
+  }
+  

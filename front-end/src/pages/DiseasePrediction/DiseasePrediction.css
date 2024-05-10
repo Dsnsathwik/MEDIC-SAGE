@@ -1,0 +1,167 @@
+.disease-prediction-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.disease-prediction-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+}
+
+.symptom-buttons-container {
+  margin-bottom: 8px;
+}
+
+.symptom-button {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  background-color: #007bff; /* Default color */
+  color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.symptom-button:hover {
+  background-color: #0056b3;
+}
+
+.symptom-button.selected {
+  background-color: #ff4d4d; /* Red on selection */
+  border-color: #ff4d4d;
+}
+
+.prediction-result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.clear-button:hover {
+  background-color: #c82333;
+}
+
+.predict-disease-button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.predict-disease-button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}
+
+.symptom-button.selected {
+  background-color: #ff4d4d; /* Red on selection */
+  border-color: #ff4d4d;
+  color: #fff; /* Text color */
+}
+
+.disease-info {
+  margin-top: 20px;
+}
+
+.disease-info h3,.Heading {
+  color: #007bff; /* Blue color */
+  font-weight: bold;
+}
+
+.disease-info p {
+  margin-bottom: 20px; /* Two lines space after each paragraph */
+}
+
+.clear-button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.clear-button:hover {
+  background-color: #c82333;
+}
+
+.predict-disease-button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.predict-disease-button:hover {
+  background-color: #218838; /* Darker shade of green on hover */
+}

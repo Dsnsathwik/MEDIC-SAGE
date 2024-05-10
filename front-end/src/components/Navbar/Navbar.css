@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Adjust padding as needed */
+  background-color: #333;
+  color: white;
+  height: 90px; /* Set the height equal to the logo height */
+}
+
+.logo {
+  width: 343px; /* Set the width equal to the logo width */
+  height: 90px; /* Set the height equal to the logo height */
+}
+
+.Navbar-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center; /* Align menu items vertically centered */
+}
+
+.Navbar-menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.Navbar-menu li {
+  margin-right: 100px;
+}
+
+.flip-up {
+  display: inline-block;
+  font-family: "Outfit", sans-serif; /* Use the Outfit font family */
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.flip-up::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%; /* Adjust the width of the line */
+  height: 2px; /* Adjust the height of the line */
+  background-color: #fff; /* Color of the line */
+  transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+.flip-up:hover::before {
+  width: 105%; /* Expand the line on hover */
+}
+
+.flip-up:hover {
+  transform: translateY(-5px);
+}
+
+.Navbar-right .login-button {
+  background-color: #6a1b9a; /* Purple background color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Outfit", sans-serif; /* Use the Outfit font family */
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease; /* Smooth transition for transform property */
+}
+
+.Navbar-right .login-button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 4px;
+  background-color: #7e57c2; /* Matching color for the line */
+  transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+.Navbar-right .login-button:hover::before {
+  width: 105%; /* Expand the line on hover */
+}
+
+.Navbar-right .login-button:hover {
+  transform: translateY(-3px); /* Move the button up on hover */
+}
+
+

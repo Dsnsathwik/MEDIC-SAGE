@@ -1,0 +1,38 @@
+/* Body.css */
+.body {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.panel {
+  width: calc(55% - 50px); /* Increase panel width */
+  background: linear-gradient(to bottom right, #b3d9ff, #66b3ff); /* Diagonal gradient transition */
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Add transition effect */
+  border-radius: 20px; /* Curve the corners */
+}
+
+.panel:hover {
+  transform: scale(1.1); /* Enlarge effect on hover */
+}
+
+.panel-image {
+  width: 400px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 20px; /* Center the image horizontally */
+  border-radius: 20px; /* Curve the corners of the image */
+}
+
+h2 {
+  font-size: 24px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+}
+
+p {
+  font-size: 18px; /* Increase font size */
+}
