@@ -197,9 +197,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Maintainer - [@username](https://github.com/username)
+Project Maintainer - [@Dsnsathwik](https://github.com/Dsnsathwik)
 
-Project Link: [https://github.com/username/medic-sage](https://github.com/username/medic-sage)
+Project Link: [https://github.com/Dsnsathwik/MEDIC-SAGE](https://github.com/Dsnsathwik/MEDIC-SAGE)
 
 ## 🙏 Acknowledgments
 
